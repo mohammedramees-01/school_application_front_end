@@ -1,7 +1,8 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:4000/api", // backend URL
+  baseURL: "https://school-application-s853.onrender.com/api", // backend URL
+  
 });
 
 export const setAuthToken = (token) => {
