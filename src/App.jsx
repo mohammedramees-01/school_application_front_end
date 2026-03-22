@@ -16,7 +16,7 @@ function App() {
     const token = localStorage.getItem("token");
     if (token) {
       setAuthToken(token); // Set default axios header on refresh
-    }
+        }
   }, []);
   return (
     <Router>
